@@ -1,1 +1,11 @@
 # StockWithU
+-Register
+-login 
+    -Manager
+    -Employee
+    -(Admin)
+-สาขา
+-order
+-product
+-stock in 
+-stock out
