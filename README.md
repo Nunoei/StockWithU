@@ -3,7 +3,6 @@
 -login 
     -Manager
     -Employee
-    -(Admin)
 -สาขา
 -order
 -product
