@@ -41,7 +41,7 @@ body {
 .box:after {
     content: '';
     width: 300px;
-    height: 300px;
+    height: 250px;
     background: inherit;
     position: absolute;
     left: -20px;
@@ -64,11 +64,48 @@ body {
 }
 
 .user-name {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 15px;
     color: #fff;
+    font-size: 40px;
 }
 
+input.user-username {
+    margin-bottom: 4px !important;
+}
 
+input.user-username, input.user-password {
+    display: block;
+    width: 200px;
+    height: 18px;
+    opacity: 0.4;
+    border-radius: 2px;
+    padding: 15px 15px;
+    border: none;
+    margin: 0 auto;
+    outline: none;
+}
 
+.signin {
+    text-decoration: underline;
+    margin-top: 10px;
+    font-size: 5px;
+}
 
+.forgot {
+    text-decoration: underline;
+    margin-top: 5px;
+    font-size: 5px;
+}
+
+.botton {
+    background-color: salmon;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 5px;
+}
